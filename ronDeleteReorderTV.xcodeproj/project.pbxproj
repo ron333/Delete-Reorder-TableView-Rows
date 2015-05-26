@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E49AE4AA1B14BC0A0075BB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4A91B14BC0A0075BB88 /* AppDelegate.swift */; };
+		E49AE4AC1B14BC0A0075BB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4AB1B14BC0A0075BB88 /* ViewController.swift */; };
+		E49AE4AF1B14BC0A0075BB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49AE4AD1B14BC0A0075BB88 /* Main.storyboard */; };
+		E49AE4B11B14BC0A0075BB88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49AE4B01B14BC0A0075BB88 /* Images.xcassets */; };
+		E49AE4B41B14BC0A0075BB88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49AE4B21B14BC0A0075BB88 /* LaunchScreen.xib */; };
+		E49AE4C01B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4BF1B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E49AE4BA1B14BC0A0075BB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E49AE49C1B14BC0A0075BB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49AE4A31B14BC0A0075BB88;
+			remoteInfo = ronDeleteReorderTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E49AE4A41B14BC0A0075BB88 /* ronDeleteReorderTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ronDeleteReorderTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49AE4A81B14BC0A0075BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49AE4A91B14BC0A0075BB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E49AE4AB1B14BC0A0075BB88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E49AE4AE1B14BC0A0075BB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E49AE4B01B14BC0A0075BB88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E49AE4B31B14BC0A0075BB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E49AE4B91B14BC0A0075BB88 /* ronDeleteReorderTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ronDeleteReorderTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49AE4BE1B14BC0A0075BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49AE4BF1B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ronDeleteReorderTVTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49AE4A11B14BC0A0075BB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49AE4B61B14BC0A0075BB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E49AE49B1B14BC0A0075BB88 = {
+			isa = PBXGroup;
+			children = (
+				E49AE4A61B14BC0A0075BB88 /* ronDeleteReorderTV */,
+				E49AE4BC1B14BC0A0075BB88 /* ronDeleteReorderTVTests */,
+				E49AE4A51B14BC0A0075BB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E49AE4A51B14BC0A0075BB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49AE4A41B14BC0A0075BB88 /* ronDeleteReorderTV.app */,
+				E49AE4B91B14BC0A0075BB88 /* ronDeleteReorderTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49AE4A61B14BC0A0075BB88 /* ronDeleteReorderTV */ = {
+			isa = PBXGroup;
+			children = (
+				E49AE4A91B14BC0A0075BB88 /* AppDelegate.swift */,
+				E49AE4AB1B14BC0A0075BB88 /* ViewController.swift */,
+				E49AE4AD1B14BC0A0075BB88 /* Main.storyboard */,
+				E49AE4B01B14BC0A0075BB88 /* Images.xcassets */,
+				E49AE4B21B14BC0A0075BB88 /* LaunchScreen.xib */,
+				E49AE4A71B14BC0A0075BB88 /* Supporting Files */,
+			);
+			path = ronDeleteReorderTV;
+			sourceTree = "<group>";
+		};
+		E49AE4A71B14BC0A0075BB88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49AE4A81B14BC0A0075BB88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E49AE4BC1B14BC0A0075BB88 /* ronDeleteReorderTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				E49AE4BF1B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift */,
+				E49AE4BD1B14BC0A0075BB88 /* Supporting Files */,
+			);
+			path = ronDeleteReorderTVTests;
+			sourceTree = "<group>";
+		};
+		E49AE4BD1B14BC0A0075BB88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49AE4BE1B14BC0A0075BB88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E49AE4A31B14BC0A0075BB88 /* ronDeleteReorderTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49AE4C31B14BC0A0075BB88 /* Build configuration list for PBXNativeTarget "ronDeleteReorderTV" */;
+			buildPhases = (
+				E49AE4A01B14BC0A0075BB88 /* Sources */,
+				E49AE4A11B14BC0A0075BB88 /* Frameworks */,
+				E49AE4A21B14BC0A0075BB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ronDeleteReorderTV;
+			productName = ronDeleteReorderTV;
+			productReference = E49AE4A41B14BC0A0075BB88 /* ronDeleteReorderTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E49AE4B81B14BC0A0075BB88 /* ronDeleteReorderTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49AE4C61B14BC0A0075BB88 /* Build configuration list for PBXNativeTarget "ronDeleteReorderTVTests" */;
+			buildPhases = (
+				E49AE4B51B14BC0A0075BB88 /* Sources */,
+				E49AE4B61B14BC0A0075BB88 /* Frameworks */,
+				E49AE4B71B14BC0A0075BB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49AE4BB1B14BC0A0075BB88 /* PBXTargetDependency */,
+			);
+			name = ronDeleteReorderTVTests;
+			productName = ronDeleteReorderTVTests;
+			productReference = E49AE4B91B14BC0A0075BB88 /* ronDeleteReorderTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E49AE49C1B14BC0A0075BB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ron Mourant";
+				TargetAttributes = {
+					E49AE4A31B14BC0A0075BB88 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E49AE4B81B14BC0A0075BB88 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E49AE4A31B14BC0A0075BB88;
+					};
+				};
+			};
+			buildConfigurationList = E49AE49F1B14BC0A0075BB88 /* Build configuration list for PBXProject "ronDeleteReorderTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E49AE49B1B14BC0A0075BB88;
+			productRefGroup = E49AE4A51B14BC0A0075BB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49AE4A31B14BC0A0075BB88 /* ronDeleteReorderTV */,
+				E49AE4B81B14BC0A0075BB88 /* ronDeleteReorderTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49AE4A21B14BC0A0075BB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49AE4AF1B14BC0A0075BB88 /* Main.storyboard in Resources */,
+				E49AE4B41B14BC0A0075BB88 /* LaunchScreen.xib in Resources */,
+				E49AE4B11B14BC0A0075BB88 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49AE4B71B14BC0A0075BB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49AE4A01B14BC0A0075BB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49AE4AC1B14BC0A0075BB88 /* ViewController.swift in Sources */,
+				E49AE4AA1B14BC0A0075BB88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49AE4B51B14BC0A0075BB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49AE4C01B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E49AE4BB1B14BC0A0075BB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49AE4A31B14BC0A0075BB88 /* ronDeleteReorderTV */;
+			targetProxy = E49AE4BA1B14BC0A0075BB88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E49AE4AD1B14BC0A0075BB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49AE4AE1B14BC0A0075BB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E49AE4B21B14BC0A0075BB88 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49AE4B31B14BC0A0075BB88 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E49AE4C11B14BC0A0075BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E49AE4C21B14BC0A0075BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E49AE4C41B14BC0A0075BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ronDeleteReorderTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E49AE4C51B14BC0A0075BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ronDeleteReorderTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E49AE4C71B14BC0A0075BB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ronDeleteReorderTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ronDeleteReorderTV.app/ronDeleteReorderTV";
+			};
+			name = Debug;
+		};
+		E49AE4C81B14BC0A0075BB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ronDeleteReorderTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ronDeleteReorderTV.app/ronDeleteReorderTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49AE49F1B14BC0A0075BB88 /* Build configuration list for PBXProject "ronDeleteReorderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49AE4C11B14BC0A0075BB88 /* Debug */,
+				E49AE4C21B14BC0A0075BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49AE4C31B14BC0A0075BB88 /* Build configuration list for PBXNativeTarget "ronDeleteReorderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49AE4C41B14BC0A0075BB88 /* Debug */,
+				E49AE4C51B14BC0A0075BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E49AE4C61B14BC0A0075BB88 /* Build configuration list for PBXNativeTarget "ronDeleteReorderTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49AE4C71B14BC0A0075BB88 /* Debug */,
+				E49AE4C81B14BC0A0075BB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E49AE49C1B14BC0A0075BB88 /* Project object */;
+}
