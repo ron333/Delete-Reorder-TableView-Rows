@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E49AE4AA1B14BC0A0075BB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4A91B14BC0A0075BB88 /* AppDelegate.swift */; };
-		E49AE4AC1B14BC0A0075BB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4AB1B14BC0A0075BB88 /* ViewController.swift */; };
 		E49AE4AF1B14BC0A0075BB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49AE4AD1B14BC0A0075BB88 /* Main.storyboard */; };
 		E49AE4B11B14BC0A0075BB88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49AE4B01B14BC0A0075BB88 /* Images.xcassets */; };
 		E49AE4B41B14BC0A0075BB88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49AE4B21B14BC0A0075BB88 /* LaunchScreen.xib */; };
 		E49AE4C01B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4BF1B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift */; };
+		E49AE4CA1B14CAB80075BB88 /* PlayersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4C91B14CAB80075BB88 /* PlayersVC.swift */; };
+		E49AE4CC1B15010F0075BB88 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4CB1B15010F0075BB88 /* Player.swift */; };
+		E49AE4CE1B150D720075BB88 /* DataForTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AE4CD1B150D720075BB88 /* DataForTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		E49AE4A41B14BC0A0075BB88 /* ronDeleteReorderTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ronDeleteReorderTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49AE4A81B14BC0A0075BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49AE4A91B14BC0A0075BB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E49AE4AB1B14BC0A0075BB88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E49AE4AE1B14BC0A0075BB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E49AE4B01B14BC0A0075BB88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E49AE4B31B14BC0A0075BB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E49AE4B91B14BC0A0075BB88 /* ronDeleteReorderTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ronDeleteReorderTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49AE4BE1B14BC0A0075BB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49AE4BF1B14BC0A0075BB88 /* ronDeleteReorderTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ronDeleteReorderTVTests.swift; sourceTree = "<group>"; };
+		E49AE4C91B14CAB80075BB88 /* PlayersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersVC.swift; sourceTree = "<group>"; };
+		E49AE4CB1B15010F0075BB88 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E49AE4CD1B150D720075BB88 /* DataForTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataForTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				E49AE4A91B14BC0A0075BB88 /* AppDelegate.swift */,
-				E49AE4AB1B14BC0A0075BB88 /* ViewController.swift */,
+				E49AE4C91B14CAB80075BB88 /* PlayersVC.swift */,
+				E49AE4CB1B15010F0075BB88 /* Player.swift */,
+				E49AE4CD1B150D720075BB88 /* DataForTable.swift */,
 				E49AE4AD1B14BC0A0075BB88 /* Main.storyboard */,
 				E49AE4B01B14BC0A0075BB88 /* Images.xcassets */,
 				E49AE4B21B14BC0A0075BB88 /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49AE4AC1B14BC0A0075BB88 /* ViewController.swift in Sources */,
 				E49AE4AA1B14BC0A0075BB88 /* AppDelegate.swift in Sources */,
+				E49AE4CC1B15010F0075BB88 /* Player.swift in Sources */,
+				E49AE4CE1B150D720075BB88 /* DataForTable.swift in Sources */,
+				E49AE4CA1B14CAB80075BB88 /* PlayersVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
